@@ -7,13 +7,13 @@ namespace FleetRent.Domain.Common
     public abstract class Entity : IEquatable<Entity>
     {
         public Guid Id { get; protected set; }
-        protected Entity( Guid id)
+        protected Entity(Guid id)
         {
-            if (Id == Guid.Empty)
+            if (id == Guid.Empty)
             {
-                throw new ArgumentException("L'identifiant de l'entité ne peut pas être vide.", nameof(Id));
+                throw new ArgumentException("L'identifiant de l'entité ne peut pas être vide.", nameof(id));
             }
-            Id = Id;
+            Id = id;
         }
 
         protected Entity()
