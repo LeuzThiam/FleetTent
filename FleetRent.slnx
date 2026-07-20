@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FleetRent.Application/FleetRent.Application.csproj" />
+    <Project Path="src/FleetRent.Domain/FleetRent.Domain.csproj" />
+    <Project Path="src/FleetRent.Infrastructure/FleetRent.Infrastructure.csproj" />
+    <Project Path="src/FleetRent.Wpf/FleetRent.Wpf.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FleetRent.Application.Tests/FleetRent.Application.Tests.csproj" />
+    <Project Path="tests/FleetRent.Domain.Tests/FleetRent.Domain.Tests.csproj" />
+    <Project Path="tests/FleetRent.Infrastructure.Tests/FleetRent.Infrastructure.Tests.csproj" />
+    <Project Path="tests/FleetRent.Wpf.Tests/FleetRent.Wpf.Tests.csproj" />
+  </Folder>
+</Solution>
