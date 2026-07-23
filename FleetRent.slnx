@@ -11,4 +11,9 @@
     <Project Path="tests/FleetRent.Infrastructure.Tests/FleetRent.Infrastructure.Tests.csproj" />
     <Project Path="tests/FleetRent.Wpf.Tests/FleetRent.Wpf.Tests.csproj" />
   </Folder>
+  <Folder Name="/Éléments de solution/">
+    <File Path=".gitignore" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
 </Solution>
